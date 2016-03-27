@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E41303F1CA7E7CF00CEACF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41303E1CA7E7CF00CEACF0 /* AppDelegate.swift */; };
+		8E4130411CA7E7CF00CEACF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130401CA7E7CF00CEACF0 /* ViewController.swift */; };
+		8E4130441CA7E7CF00CEACF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4130421CA7E7CF00CEACF0 /* Main.storyboard */; };
+		8E4130461CA7E7CF00CEACF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4130451CA7E7CF00CEACF0 /* Assets.xcassets */; };
+		8E4130491CA7E7CF00CEACF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4130471CA7E7CF00CEACF0 /* LaunchScreen.storyboard */; };
+		8E4130541CA7E7CF00CEACF0 /* BluePencilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130531CA7E7CF00CEACF0 /* BluePencilTests.swift */; };
+		8E41305F1CA7E7CF00CEACF0 /* BluePencilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41305E1CA7E7CF00CEACF0 /* BluePencilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E4130501CA7E7CF00CEACF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4130331CA7E7CE00CEACF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E41303A1CA7E7CE00CEACF0;
+			remoteInfo = BluePencil;
+		};
+		8E41305B1CA7E7CF00CEACF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4130331CA7E7CE00CEACF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E41303A1CA7E7CE00CEACF0;
+			remoteInfo = BluePencil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E41303B1CA7E7CE00CEACF0 /* BluePencil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluePencil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E41303E1CA7E7CF00CEACF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E4130401CA7E7CF00CEACF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E4130431CA7E7CF00CEACF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E4130451CA7E7CF00CEACF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E4130481CA7E7CF00CEACF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E41304A1CA7E7CF00CEACF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E41304F1CA7E7CF00CEACF0 /* BluePencilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluePencilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4130531CA7E7CF00CEACF0 /* BluePencilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePencilTests.swift; sourceTree = "<group>"; };
+		8E4130551CA7E7CF00CEACF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E41305A1CA7E7CF00CEACF0 /* BluePencilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluePencilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E41305E1CA7E7CF00CEACF0 /* BluePencilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePencilUITests.swift; sourceTree = "<group>"; };
+		8E4130601CA7E7CF00CEACF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4130381CA7E7CE00CEACF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E41304C1CA7E7CF00CEACF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4130571CA7E7CF00CEACF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4130321CA7E7CE00CEACF0 = {
+			isa = PBXGroup;
+			children = (
+				8E41303D1CA7E7CE00CEACF0 /* BluePencil */,
+				8E4130521CA7E7CF00CEACF0 /* BluePencilTests */,
+				8E41305D1CA7E7CF00CEACF0 /* BluePencilUITests */,
+				8E41303C1CA7E7CE00CEACF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E41303C1CA7E7CE00CEACF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E41303B1CA7E7CE00CEACF0 /* BluePencil.app */,
+				8E41304F1CA7E7CF00CEACF0 /* BluePencilTests.xctest */,
+				8E41305A1CA7E7CF00CEACF0 /* BluePencilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E41303D1CA7E7CE00CEACF0 /* BluePencil */ = {
+			isa = PBXGroup;
+			children = (
+				8E41303E1CA7E7CF00CEACF0 /* AppDelegate.swift */,
+				8E4130401CA7E7CF00CEACF0 /* ViewController.swift */,
+				8E4130421CA7E7CF00CEACF0 /* Main.storyboard */,
+				8E4130451CA7E7CF00CEACF0 /* Assets.xcassets */,
+				8E4130471CA7E7CF00CEACF0 /* LaunchScreen.storyboard */,
+				8E41304A1CA7E7CF00CEACF0 /* Info.plist */,
+			);
+			path = BluePencil;
+			sourceTree = "<group>";
+		};
+		8E4130521CA7E7CF00CEACF0 /* BluePencilTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4130531CA7E7CF00CEACF0 /* BluePencilTests.swift */,
+				8E4130551CA7E7CF00CEACF0 /* Info.plist */,
+			);
+			path = BluePencilTests;
+			sourceTree = "<group>";
+		};
+		8E41305D1CA7E7CF00CEACF0 /* BluePencilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E41305E1CA7E7CF00CEACF0 /* BluePencilUITests.swift */,
+				8E4130601CA7E7CF00CEACF0 /* Info.plist */,
+			);
+			path = BluePencilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E41303A1CA7E7CE00CEACF0 /* BluePencil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4130631CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencil" */;
+			buildPhases = (
+				8E4130371CA7E7CE00CEACF0 /* Sources */,
+				8E4130381CA7E7CE00CEACF0 /* Frameworks */,
+				8E4130391CA7E7CE00CEACF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluePencil;
+			productName = BluePencil;
+			productReference = 8E41303B1CA7E7CE00CEACF0 /* BluePencil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E41304E1CA7E7CF00CEACF0 /* BluePencilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4130661CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencilTests" */;
+			buildPhases = (
+				8E41304B1CA7E7CF00CEACF0 /* Sources */,
+				8E41304C1CA7E7CF00CEACF0 /* Frameworks */,
+				8E41304D1CA7E7CF00CEACF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4130511CA7E7CF00CEACF0 /* PBXTargetDependency */,
+			);
+			name = BluePencilTests;
+			productName = BluePencilTests;
+			productReference = 8E41304F1CA7E7CF00CEACF0 /* BluePencilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E4130591CA7E7CF00CEACF0 /* BluePencilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4130691CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencilUITests" */;
+			buildPhases = (
+				8E4130561CA7E7CF00CEACF0 /* Sources */,
+				8E4130571CA7E7CF00CEACF0 /* Frameworks */,
+				8E4130581CA7E7CF00CEACF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E41305C1CA7E7CF00CEACF0 /* PBXTargetDependency */,
+			);
+			name = BluePencilUITests;
+			productName = BluePencilUITests;
+			productReference = 8E41305A1CA7E7CF00CEACF0 /* BluePencilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4130331CA7E7CE00CEACF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mm;
+				TargetAttributes = {
+					8E41303A1CA7E7CE00CEACF0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8E41304E1CA7E7CF00CEACF0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E41303A1CA7E7CE00CEACF0;
+					};
+					8E4130591CA7E7CF00CEACF0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8E41303A1CA7E7CE00CEACF0;
+					};
+				};
+			};
+			buildConfigurationList = 8E4130361CA7E7CE00CEACF0 /* Build configuration list for PBXProject "BluePencil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4130321CA7E7CE00CEACF0;
+			productRefGroup = 8E41303C1CA7E7CE00CEACF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E41303A1CA7E7CE00CEACF0 /* BluePencil */,
+				8E41304E1CA7E7CF00CEACF0 /* BluePencilTests */,
+				8E4130591CA7E7CF00CEACF0 /* BluePencilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4130391CA7E7CE00CEACF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4130491CA7E7CF00CEACF0 /* LaunchScreen.storyboard in Resources */,
+				8E4130461CA7E7CF00CEACF0 /* Assets.xcassets in Resources */,
+				8E4130441CA7E7CF00CEACF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E41304D1CA7E7CF00CEACF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4130581CA7E7CF00CEACF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4130371CA7E7CE00CEACF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4130411CA7E7CF00CEACF0 /* ViewController.swift in Sources */,
+				8E41303F1CA7E7CF00CEACF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E41304B1CA7E7CF00CEACF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4130541CA7E7CF00CEACF0 /* BluePencilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4130561CA7E7CF00CEACF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E41305F1CA7E7CF00CEACF0 /* BluePencilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E4130511CA7E7CF00CEACF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E41303A1CA7E7CE00CEACF0 /* BluePencil */;
+			targetProxy = 8E4130501CA7E7CF00CEACF0 /* PBXContainerItemProxy */;
+		};
+		8E41305C1CA7E7CF00CEACF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E41303A1CA7E7CE00CEACF0 /* BluePencil */;
+			targetProxy = 8E41305B1CA7E7CF00CEACF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E4130421CA7E7CF00CEACF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4130431CA7E7CF00CEACF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4130471CA7E7CF00CEACF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4130481CA7E7CF00CEACF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4130611CA7E7CF00CEACF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E4130621CA7E7CF00CEACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4130641CA7E7CF00CEACF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BluePencil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E4130651CA7E7CF00CEACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BluePencil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E4130671CA7E7CF00CEACF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BluePencilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluePencil.app/BluePencil";
+			};
+			name = Debug;
+		};
+		8E4130681CA7E7CF00CEACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BluePencilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluePencil.app/BluePencil";
+			};
+			name = Release;
+		};
+		8E41306A1CA7E7CF00CEACF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BluePencilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluePencil;
+			};
+			name = Debug;
+		};
+		8E41306B1CA7E7CF00CEACF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BluePencilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluePencil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4130361CA7E7CE00CEACF0 /* Build configuration list for PBXProject "BluePencil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4130611CA7E7CF00CEACF0 /* Debug */,
+				8E4130621CA7E7CF00CEACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4130631CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4130641CA7E7CF00CEACF0 /* Debug */,
+				8E4130651CA7E7CF00CEACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E4130661CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4130671CA7E7CF00CEACF0 /* Debug */,
+				8E4130681CA7E7CF00CEACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E4130691CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E41306A1CA7E7CF00CEACF0 /* Debug */,
+				8E41306B1CA7E7CF00CEACF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4130331CA7E7CE00CEACF0 /* Project object */;
+}
