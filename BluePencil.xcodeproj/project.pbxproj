@@ -15,7 +15,7 @@
 		8E4130541CA7E7CF00CEACF0 /* BluePencilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130531CA7E7CF00CEACF0 /* BluePencilTests.swift */; };
 		8E41305F1CA7E7CF00CEACF0 /* BluePencilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41305E1CA7E7CF00CEACF0 /* BluePencilUITests.swift */; };
 		8E41306D1CA8155D00CEACF0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41306C1CA8155D00CEACF0 /* FeedViewController.swift */; };
-		8E4130711CA8205A00CEACF0 /* PostCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130701CA8205A00CEACF0 /* PostCorrectViewController.swift */; };
+		8E4130711CA8205A00CEACF0 /* EssayCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130701CA8205A00CEACF0 /* EssayCorrectViewController.swift */; };
 		8E4130731CA826B600CEACF0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */; };
 		8E4130751CA828D800CEACF0 /* obama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E4130741CA828D800CEACF0 /* obama.jpeg */; };
 /* End PBXBuildFile section */
@@ -52,7 +52,7 @@
 		8E41305E1CA7E7CF00CEACF0 /* BluePencilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePencilUITests.swift; sourceTree = "<group>"; };
 		8E4130601CA7E7CF00CEACF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E41306C1CA8155D00CEACF0 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		8E4130701CA8205A00CEACF0 /* PostCorrectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCorrectViewController.swift; sourceTree = "<group>"; };
+		8E4130701CA8205A00CEACF0 /* EssayCorrectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssayCorrectViewController.swift; sourceTree = "<group>"; };
 		8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		8E4130741CA828D800CEACF0 /* obama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +109,7 @@
 				8E4130401CA7E7CF00CEACF0 /* ViewController.swift */,
 				8E41306C1CA8155D00CEACF0 /* FeedViewController.swift */,
 				8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */,
-				8E4130701CA8205A00CEACF0 /* PostCorrectViewController.swift */,
+				8E4130701CA8205A00CEACF0 /* EssayCorrectViewController.swift */,
 				8E4130421CA7E7CF00CEACF0 /* Main.storyboard */,
 				8E4130451CA7E7CF00CEACF0 /* Assets.xcassets */,
 				8E4130741CA828D800CEACF0 /* obama.jpeg */,
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4130711CA8205A00CEACF0 /* PostCorrectViewController.swift in Sources */,
+				8E4130711CA8205A00CEACF0 /* EssayCorrectViewController.swift in Sources */,
 				8E4130731CA826B600CEACF0 /* FeedTableViewCell.swift in Sources */,
 				8E4130411CA7E7CF00CEACF0 /* ViewController.swift in Sources */,
 				8E41306D1CA8155D00CEACF0 /* FeedViewController.swift in Sources */,

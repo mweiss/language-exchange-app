@@ -6,11 +6,20 @@
 //  Copyright © 2016 mm. All rights reserved.
 //
 
+/*
+ Custom UITableViewCell in the feedView.
+ Shows the `title`, a `previewText` for the post and a `profilePicture` of the user who created it.
+ */
+
 import UIKit
 
 class FeedTableViewCell:UITableViewCell  {
   
+  /// Profile picture of the user.
   @IBOutlet weak var profilePicture: UIImageView!
+  /// Title of the essay.
+  @IBOutlet weak var title: UILabel!
+  /// Preview text for the essay.
   @IBOutlet weak var previewText: UILabel!
   
   override func awakeFromNib() {

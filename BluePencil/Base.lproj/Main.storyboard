@@ -48,45 +48,55 @@ If not: Display login splash screen.</string>
         <scene sceneID="WUX-JB-RIc">
             <objects>
                 <tableViewController title="Feed" id="onz-36-Aei" customClass="FeedViewController" customModule="BluePencil" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="JWp-H6-M3h">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="130" sectionHeaderHeight="28" sectionFooterHeight="28" id="JWp-H6-M3h">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedCell" rowHeight="120" id="QPe-dm-b1B" customClass="FeedTableViewCell" customModule="BluePencil" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="600" height="120"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedCell" rowHeight="130" id="QPe-dm-b1B" customClass="FeedTableViewCell" customModule="BluePencil" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QPe-dm-b1B" id="p0b-yT-oJO">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="119.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="130"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="obama.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jRq-UW-Ugt">
-                                            <rect key="frame" x="8" y="8" width="100" height="100"/>
+                                        <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="obama.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jRq-UW-Ugt">
+                                            <rect key="frame" x="8" y="8" width="114" height="114"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="100" id="YUs-d6-IWV"/>
+                                                <constraint firstAttribute="width" constant="114" id="YUs-d6-IWV"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lg-FM-nHo">
-                                            <rect key="frame" x="116" y="8" width="476" height="100"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lg-FM-nHo">
+                                            <rect key="frame" x="130" y="37" width="462" height="85"/>
                                             <string key="text">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</string>
-                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTx-Yf-W12">
+                                            <rect key="frame" x="130" y="8" width="462" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                            <color key="textColor" red="0.92156862750000001" green="0.17254901959999999" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="3Lg-FM-nHo" firstAttribute="leading" secondItem="jRq-UW-Ugt" secondAttribute="trailing" constant="8" symbolic="YES" id="AUr-22-EVo"/>
+                                        <constraint firstItem="3Lg-FM-nHo" firstAttribute="leading" secondItem="jRq-UW-Ugt" secondAttribute="trailing" constant="8" id="AUr-22-EVo"/>
                                         <constraint firstItem="jRq-UW-Ugt" firstAttribute="top" secondItem="p0b-yT-oJO" secondAttribute="topMargin" id="IZq-Dc-pRT"/>
                                         <constraint firstItem="jRq-UW-Ugt" firstAttribute="leading" secondItem="p0b-yT-oJO" secondAttribute="leadingMargin" id="TvA-Ny-gIH"/>
-                                        <constraint firstItem="jRq-UW-Ugt" firstAttribute="top" secondItem="3Lg-FM-nHo" secondAttribute="top" id="a9e-Yw-gbx"/>
+                                        <constraint firstItem="jRq-UW-Ugt" firstAttribute="top" secondItem="3Lg-FM-nHo" secondAttribute="top" constant="-29" id="a9e-Yw-gbx"/>
+                                        <constraint firstItem="LTx-Yf-W12" firstAttribute="top" secondItem="jRq-UW-Ugt" secondAttribute="top" id="oVS-5R-6Pq"/>
                                         <constraint firstItem="3Lg-FM-nHo" firstAttribute="trailing" secondItem="p0b-yT-oJO" secondAttribute="trailingMargin" id="qug-hM-8Tt"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="3Lg-FM-nHo" secondAttribute="bottom" constant="3.5" id="wZi-U0-jyf"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="jRq-UW-Ugt" secondAttribute="bottom" constant="3.5" id="yCQ-1I-YvS"/>
+                                        <constraint firstItem="LTx-Yf-W12" firstAttribute="leading" secondItem="jRq-UW-Ugt" secondAttribute="trailing" constant="8" symbolic="YES" id="tQP-Rt-5sV"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="3Lg-FM-nHo" secondAttribute="bottom" id="wZi-U0-jyf"/>
+                                        <constraint firstItem="LTx-Yf-W12" firstAttribute="trailing" secondItem="3Lg-FM-nHo" secondAttribute="trailing" id="xlu-0J-hQm"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="jRq-UW-Ugt" secondAttribute="bottom" id="yCQ-1I-YvS"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="previewText" destination="3Lg-FM-nHo" id="tYc-2D-lz6"/>
                                     <outlet property="profilePicture" destination="jRq-UW-Ugt" id="GOi-am-rvO"/>
+                                    <outlet property="title" destination="LTx-Yf-W12" id="sR5-tO-gF6"/>
                                     <segue destination="9Jo-yo-ap0" kind="show" identifier="ShowCorrectionView" id="dhV-tp-xUC"/>
                                 </connections>
                             </tableViewCell>
@@ -102,10 +112,10 @@ If not: Display login splash screen.</string>
             </objects>
             <point key="canvasLocation" x="2019" y="362"/>
         </scene>
-        <!--Post Detail-->
+        <!--Correct Essay-->
         <scene sceneID="U6d-YB-bvb">
             <objects>
-                <viewController title="Post Detail" id="9Jo-yo-ap0" customClass="PostCorrectViewController" customModule="BluePencil" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Correct Essay" id="9Jo-yo-ap0" customClass="EssayCorrectViewController" customModule="BluePencil" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="N5E-NH-aev"/>
                         <viewControllerLayoutGuide type="bottom" id="kIt-TM-OtU"/>
@@ -114,7 +124,7 @@ If not: Display login splash screen.</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Post Detail (Correct Essay)" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RfW-k5-MWr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Correct Essay" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RfW-k5-MWr">
                                 <rect key="frame" x="94" y="294" width="413" height="57"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
