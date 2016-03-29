@@ -87,6 +87,7 @@ If not: Display login splash screen.</string>
                                 <connections>
                                     <outlet property="previewText" destination="3Lg-FM-nHo" id="tYc-2D-lz6"/>
                                     <outlet property="profilePicture" destination="jRq-UW-Ugt" id="GOi-am-rvO"/>
+                                    <segue destination="9Jo-yo-ap0" kind="show" identifier="ShowCorrectionView" id="dhV-tp-xUC"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
