@@ -57,7 +57,7 @@ If not: Display login splash screen.</string>
                                 <rect key="frame" x="0.0" y="92" width="600" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QPe-dm-b1B" id="p0b-yT-oJO">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="130"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="129.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="obama.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jRq-UW-Ugt">
