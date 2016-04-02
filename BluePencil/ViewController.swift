@@ -15,9 +15,10 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     
     // TODO: Implement facebook login. For now: Proceed to post feed
-    print("Skipping login, proceeding to feed")
+    print("Skipping login, proceeding to register")
     dispatch_async(dispatch_get_main_queue()) {
-      self.performSegueWithIdentifier("LoginSuccessfulProceedToFeed", sender: self)
+      self.performSegueWithIdentifier("FirstTimeUserRegister", sender:self)
+      //self.performSegueWithIdentifier("LoginSuccessfulProceedToFeed", sender: self)
     }
   }
 
