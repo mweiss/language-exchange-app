@@ -18,6 +18,9 @@
 		8E4130711CA8205A00CEACF0 /* EssayCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130701CA8205A00CEACF0 /* EssayCorrectViewController.swift */; };
 		8E4130731CA826B600CEACF0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */; };
 		8E4130751CA828D800CEACF0 /* obama.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E4130741CA828D800CEACF0 /* obama.jpeg */; };
+		8E71634C1CB3EC0700C23BED /* LanguageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */; };
+		8E71634E1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */; };
+		8EDA3EF51CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3EF41CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		8E4130701CA8205A00CEACF0 /* EssayCorrectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssayCorrectViewController.swift; sourceTree = "<group>"; };
 		8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		8E4130741CA828D800CEACF0 /* obama.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obama.jpeg; sourceTree = "<group>"; };
+		8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelector.swift; sourceTree = "<group>"; };
+		8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNativeLanguageSelectionController.swift; sourceTree = "<group>"; };
+		8EDA3EF41CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLearnLanguageSelectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,10 @@
 				8E41306C1CA8155D00CEACF0 /* FeedViewController.swift */,
 				8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */,
 				8E4130701CA8205A00CEACF0 /* EssayCorrectViewController.swift */,
+				8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */,
+				8EDA3EF41CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift */,
 				8E4130421CA7E7CF00CEACF0 /* Main.storyboard */,
+				8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */,
 				8E4130451CA7E7CF00CEACF0 /* Assets.xcassets */,
 				8E4130741CA828D800CEACF0 /* obama.jpeg */,
 				8E4130471CA7E7CF00CEACF0 /* LaunchScreen.storyboard */,
@@ -269,10 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E71634C1CB3EC0700C23BED /* LanguageSelector.swift in Sources */,
 				8E4130711CA8205A00CEACF0 /* EssayCorrectViewController.swift in Sources */,
 				8E4130731CA826B600CEACF0 /* FeedTableViewCell.swift in Sources */,
 				8E4130411CA7E7CF00CEACF0 /* ViewController.swift in Sources */,
 				8E41306D1CA8155D00CEACF0 /* FeedViewController.swift in Sources */,
+				8E71634E1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift in Sources */,
+				8EDA3EF51CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift in Sources */,
 				8E41303F1CA7E7CF00CEACF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
