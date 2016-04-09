@@ -16,6 +16,7 @@ import UIKit
 class FeedTableViewCell:UITableViewCell  {
   
   /// Profile picture of the user.
+  @IBOutlet weak var profilePicture: UIImageView!
   /// Title of the essay.
   @IBOutlet weak var title: UILabel!
   /// Preview text for the essay.
