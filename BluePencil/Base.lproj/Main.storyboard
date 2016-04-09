@@ -97,7 +97,6 @@ If not: Display login splash screen.</string>
                                     <outlet property="previewText" destination="3Lg-FM-nHo" id="tYc-2D-lz6"/>
                                     <outlet property="profilePicture" destination="jRq-UW-Ugt" id="GOi-am-rvO"/>
                                     <outlet property="title" destination="LTx-Yf-W12" id="sR5-tO-gF6"/>
-                                    <segue destination="9Jo-yo-ap0" kind="show" identifier="ShowCorrectionView" id="dhV-tp-xUC"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -111,32 +110,6 @@ If not: Display login splash screen.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F36-6z-AVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2019" y="362"/>
-        </scene>
-        <!--Correct Essay-->
-        <scene sceneID="U6d-YB-bvb">
-            <objects>
-                <viewController title="Correct Essay" id="9Jo-yo-ap0" customClass="EssayCorrectViewController" customModule="BluePencil" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="N5E-NH-aev"/>
-                        <viewControllerLayoutGuide type="bottom" id="kIt-TM-OtU"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Qql-HS-zJe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Correct Essay" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RfW-k5-MWr">
-                                <rect key="frame" x="94" y="294" width="413" height="57"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dmb-Zt-oYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2849" y="356"/>
         </scene>
         <!--Feed NavigationController-->
         <scene sceneID="t9a-zn-pbo">
