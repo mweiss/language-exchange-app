@@ -9,11 +9,22 @@
 import UIKit
 
 /*
- Onboarding: Lean language gets selected by the user.
+ Onboarding: Studylanguage gets selected by the user.
  */
 // TODO: Sort English to the top.
 
-class RegisterLearnLanguageSelectionController: UIViewController, LanguageSelector {
+class RegisterLearnLanguageSelectionController: UIViewController, LanguageSelector, RegisterController {
+  // RegisterController
+  var userRegistrationData = UserRegistrationData()
+  
+  // MARK: Flow
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    if (segue.identifier==LanguageSelectorData().selectLearnLanguageLevelSegueIdentifier) {
+      // Learn language selected, proceed to level selection view.
+      var destinationController = segue.destinationViewController as! RegisterController
+      destinationController.userRegistrationData = self.userRegistrationData
+    }
+  }
   
 }
 
@@ -36,7 +47,11 @@ extension RegisterLearnLanguageSelectionController:UITableViewDataSource {
 
 // MARK: UITableViewDelegate-methods
 extension RegisterLearnLanguageSelectionController:UITableViewDelegate {
-  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    print("Selected \(LanguageSelectorData().languageLabels[indexPath.row])")
+  func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
+    print("Will select \(LanguageSelectorData().languageCodes[indexPath.row])")
+    userRegistrationData.learnLanguages.append(LanguageSelectorData().languageCodes[indexPath.row])
+    userRegistrationData.learnLanguagesLevels.append(-1)
+    
+    return indexPath
   }
 }

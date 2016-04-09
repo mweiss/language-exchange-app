@@ -14,9 +14,25 @@ import UIKit
 
 struct LanguageSelectorData {
   let languageLabels = ["English", "German", "Japanese", "Klingonian"]
-  let languageCodes = ["English", "German", "Japanese", "Klingonian"]
+  let languageCodes = ["ENG", "GER", "JPN", "KLI"]
+  let languageLevels = ["Beginner", "Conversational", "Intermediate", "Fluent"]
   let nativeCellIdentifier = "CellNativeLanguage"
   let learnCellIdentifier = "CellLearnLanguage"
+  let learnLevelCellIdentifier = "CellLearnLevel"
+  
+  
+  let nativeLanguageSelectedSegueIdentifier = "NativeLanguageSelectedSegue"
+  let nativeLanguageConfirmationAddSegueIdentifier = "AddNativeLanguageSegue"
+  let nativeLanguageConfirmationProceedSegueIdentifier = "ConfirmNativeLanguageSegue"
+  
+  let selectLearnLanguageLevelSegueIdentifier = "SelectLearnLanguageLevelSegue"
+  let learnLanguageSelectedSegueIdentifier = "LearnLanguageLevelSelectedSegue"
+  
+  let learnLanguageConfirmationAddSegueIdentifier = "AddLearnLanguageSegue"
+  let learnLanguageLevelConfirmationSegueIdentifier = "LearnLanguageLevelContinueSegue"
+  
+  let finishRegistrationSegueIdentifier = "FinishRegistrationSegue"
+  
 }
 
 protocol LanguageSelector {

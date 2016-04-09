@@ -12,9 +12,21 @@ import UIKit
  Onboarding: native language gets selected by the user.
  */
 // TODO: First view: Sort user's system language to the top. Second View: Sort English to the top.
+// TODO: prepareForSegue is triggered before didSelectRowAtIndexPath => therefore empty registration data is handed over.
+  // Solution: Add a segue from V1 to V2 and trigger in didSelectRow
 
-class RegisterNativeLanguageSelectionController: UIViewController, LanguageSelector {
+class RegisterNativeLanguageSelectionController: UIViewController, LanguageSelector, RegisterController {
+  var userRegistrationData = UserRegistrationData()
   
+  // MARK: Flow
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    print("Will perform segue")
+    if (segue.identifier == LanguageSelectorData().nativeLanguageSelectedSegueIdentifier) {
+      // User selected a native language. Handover registration data to next view controller.
+      var destinationViewController:RegisterController = segue.destinationViewController as! RegisterController // TODO: Can't use let when force-downcasting to RegisterController-protocol. When I used RegisterNative...Controller it worked. Strange.
+      destinationViewController.userRegistrationData = self.userRegistrationData
+    }
+  }
 }
 
 // MARK: UITableViewDataSource-methods
@@ -36,7 +48,12 @@ extension RegisterNativeLanguageSelectionController:UITableViewDataSource {
 
 // MARK: UITableViewDelegate-methods
 extension RegisterNativeLanguageSelectionController:UITableViewDelegate {
-  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    print("Selected \(LanguageSelectorData().languageLabels[indexPath.row])")
+  func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
+    print("Will select \(LanguageSelectorData().languageCodes[indexPath.row])")
+    // Add language to registration data.
+    userRegistrationData.nativeLanguages.append(LanguageSelectorData().languageCodes[indexPath.row])
+    
+    return indexPath
   }
+  
 }
