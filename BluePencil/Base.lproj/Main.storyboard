@@ -621,7 +621,7 @@ If not: Display login splash screen.</string>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                                 <connections>
                                     <outlet property="delegate" destination="VrQ-Sn-InZ" id="5u4-dC-o5V"/>
                                 </connections>

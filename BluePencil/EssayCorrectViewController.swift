@@ -12,26 +12,41 @@
 
 // TODO: Add toolbar (with UITextFields inputAccessoryView-property)
 
+// TODO: Change everything to labels?
+
 import UIKit
 
 class EssayCorrectViewController: UIViewController {
   
   @IBOutlet weak var essayTextView: UITextView!
   
+  // essayTextView types
+  enum EssayPartType:Int {
+    case Part = 1
+    case CorrectedPart
+    case Correction
+  }
+  
   // Attributes for essayTextView
   struct EssayTextAttributes  {
-    var Standard   = ["type":"part",
+    var Standard   = ["type":EssayPartType.Part.rawValue,
                       NSForegroundColorAttributeName:UIColor.blackColor()]
-    var CorrectedPart = ["type":"correctedPart",
+    var CorrectedPart = ["type":EssayPartType.CorrectedPart.rawValue,
                          NSForegroundColorAttributeName:UIColor.grayColor(),
                            NSStrikethroughStyleAttributeName:9]
-    var Correction      = ["type":"correction",
+    var Correction      = ["type":EssayPartType.Correction.rawValue,
                            NSForegroundColorAttributeName:UIColor.redColor()]
   }
   
   
   var essayTitle:String = ""
   var essay = Essay()
+  
+  /// essayTextView control
+  // Current selection
+  var selectedType:EssayPartType?
+  var selectedPartID:Int?
+  var selectedLocation:Int?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -158,25 +173,33 @@ extension EssayCorrectViewController  {
 // MARK: UITextView-delegate methods
 extension EssayCorrectViewController:UITextViewDelegate {
   func textViewDidChangeSelection(textView: UITextView) {
-    let pos = textView.selectedRange.location
-
-    print("# Selected: \(pos).")
+    selectedLocation = textView.selectedRange.location
     
-    if (pos < essayTextView.attributedText.length) {
-      // Get attributes at position.
-      let typeAtSelection = essayTextView.attributedText.attribute("type", atIndex: pos, effectiveRange: nil)
-      let partIDAtSelection = essayTextView.attributedText.attribute("partID", atIndex: pos, effectiveRange: nil)
-      print(typeAtSelection)
-      print(partIDAtSelection)
+    if (selectedLocation < essayTextView.attributedText.length) {
+      // Determine selected part ID and type from attributes
+      if let typeAtSelection = essayTextView.attributedText.attribute("type", atIndex: selectedLocation!, effectiveRange: nil), partIDAtSelection = essayTextView.attributedText.attribute("partID", atIndex: selectedLocation!, effectiveRange: nil) {
+        selectedPartID = partIDAtSelection as? Int
+        selectedType = typeAtSelection as? EssayPartType
+      }
     }
 
   }
   
   func textViewShouldBeginEditing(textView: UITextView) -> Bool {
     print("# Should begin editing.")
-    
-    
-    
     return true
   }
+  
+  func textViewDidBeginEditing(textView: UITextView) {
+    print("#D Did begin editing")
+  }
+  
+  func textViewDidEndEditing(textView: UITextView) {
+    print("# Did end editing")
+  }
+  
+  func textViewDidChange(textView: UITextView) {
+    print("# Did change")
+  }
+  
 }
