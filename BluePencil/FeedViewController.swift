@@ -85,7 +85,7 @@ class FeedViewController: UITableViewController {
   
   // MARK: Flow Control
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    if (segue.identifier == "ShowCorrectionView") {
+    if (segue.identifier == "EssayCorrectSegue") {
       // Will proceed to correctionView.
       let correctView = segue.destinationViewController as! EssayCorrectViewController
       correctView.essayTitle = selectedEssayTitle
