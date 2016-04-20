@@ -106,6 +106,11 @@ struct EssayPart {
   var correctedText:String = ""
   var comment:String = ""
   var range:NSRange = NSRange(location: 0, length: 0)
+  var isCorrected:Bool {
+    get {
+      return text != correctedText
+    }
+  }
   
   init(text:String, correctedText:String, comment:String)  {
     self.text = text
