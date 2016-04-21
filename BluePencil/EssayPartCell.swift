@@ -76,12 +76,22 @@ extension EssayPartCell:UITextFieldDelegate {
   
   func textFieldDidEndEditing(textField: UITextField) {
     if let part = part {
+      // TODO: This fails if line breaks are in the string.
       if part.text == correctionTextField.text {
         // No corrections have been made - delete text in correctionTextField and remove strikethrough.
         partLabel.attributedText = NSAttributedString(string:part.text, attributes: EssayPartAttributes().Standard)
         correctionTextField.text = ""
       }
+      else {
+        // TODO: Write corrected text to part.correctedText and save to essay
+        
+      }
       
     }
+  }
+  
+  func textFieldShouldReturn(textField: UITextField) -> Bool {
+    textField.endEditing(true)
+    return false
   }
 }
