@@ -19,6 +19,10 @@
 		8E4130731CA826B600CEACF0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */; };
 		8E71634C1CB3EC0700C23BED /* LanguageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */; };
 		8E71634E1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */; };
+		8E7C96A81D154C2700A7A9CB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7C96A51D154C2700A7A9CB /* FBSDKCoreKit.framework */; };
+		8E7C96A91D154C2700A7A9CB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7C96A61D154C2700A7A9CB /* FBSDKLoginKit.framework */; };
+		8E7C96AA1D154C2700A7A9CB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7C96A71D154C2700A7A9CB /* FBSDKShareKit.framework */; };
+		8E7C96AC1D157C9400A7A9CB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C96AB1D157C9400A7A9CB /* APIManager.swift */; };
 		8E8FB5D61CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FB5D51CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift */; };
 		8E8FB5D81CB53CFD0043C1B8 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FB5D71CB53CFD0043C1B8 /* RegisterController.swift */; };
 		8EDA3EF51CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA3EF41CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift */; };
@@ -63,6 +67,10 @@
 		8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelector.swift; sourceTree = "<group>"; };
 		8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNativeLanguageSelectionController.swift; sourceTree = "<group>"; };
+		8E7C96A51D154C2700A7A9CB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8E7C96A61D154C2700A7A9CB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8E7C96A71D154C2700A7A9CB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		8E7C96AB1D157C9400A7A9CB /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		8E8FB5D51CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNativeLanguageConfirmationController.swift; sourceTree = "<group>"; };
 		8E8FB5D71CB53CFD0043C1B8 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 		8EDA3EF41CB3FD8700B28774 /* RegisterLearnLanguageSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLearnLanguageSelectionController.swift; sourceTree = "<group>"; };
@@ -76,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7C96A91D154C2700A7A9CB /* FBSDKLoginKit.framework in Frameworks */,
+				8E7C96A81D154C2700A7A9CB /* FBSDKCoreKit.framework in Frameworks */,
+				8E7C96AA1D154C2700A7A9CB /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +110,7 @@
 		8E4130321CA7E7CE00CEACF0 = {
 			isa = PBXGroup;
 			children = (
+				8E7C96A41D154C1900A7A9CB /* Frameworks */,
 				8E41303D1CA7E7CE00CEACF0 /* BluePencil */,
 				8E4130521CA7E7CF00CEACF0 /* BluePencilTests */,
 				8E41305D1CA7E7CF00CEACF0 /* BluePencilUITests */,
@@ -136,6 +148,7 @@
 				8E4130451CA7E7CF00CEACF0 /* Assets.xcassets */,
 				8E4130471CA7E7CF00CEACF0 /* LaunchScreen.storyboard */,
 				8E41304A1CA7E7CF00CEACF0 /* Info.plist */,
+				8E7C96AB1D157C9400A7A9CB /* APIManager.swift */,
 			);
 			path = BluePencil;
 			sourceTree = "<group>";
@@ -156,6 +169,16 @@
 				8E4130601CA7E7CF00CEACF0 /* Info.plist */,
 			);
 			path = BluePencilUITests;
+			sourceTree = "<group>";
+		};
+		8E7C96A41D154C1900A7A9CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7C96A51D154C2700A7A9CB /* FBSDKCoreKit.framework */,
+				8E7C96A61D154C2700A7A9CB /* FBSDKLoginKit.framework */,
+				8E7C96A71D154C2700A7A9CB /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7C96AC1D157C9400A7A9CB /* APIManager.swift in Sources */,
 				8E8FB5D81CB53CFD0043C1B8 /* RegisterController.swift in Sources */,
 				8E8FB5D61CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift in Sources */,
 				8E71634C1CB3EC0700C23BED /* LanguageSelector.swift in Sources */,
@@ -445,6 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BluePencil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencil;
@@ -456,6 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BluePencil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mm.BluePencil;
