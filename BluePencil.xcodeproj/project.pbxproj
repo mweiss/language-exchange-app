@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18019FE28C0883B061BB51F2 /* Pods_BluePencilUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB2277B59F2AA20A7429DD2 /* Pods_BluePencilUITests.framework */; };
+		37A0D2502C06E6B5538D8C04 /* Pods_BluePencilTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C948662225123A647D3C3349 /* Pods_BluePencilTests.framework */; };
+		5634C9365D6FAACEA4F26608 /* Pods_BluePencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3154A8A8CD911732B5D1FCD3 /* Pods_BluePencil.framework */; };
 		8E41303F1CA7E7CF00CEACF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41303E1CA7E7CF00CEACF0 /* AppDelegate.swift */; };
 		8E4130411CA7E7CF00CEACF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130401CA7E7CF00CEACF0 /* ViewController.swift */; };
 		8E4130441CA7E7CF00CEACF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4130421CA7E7CF00CEACF0 /* Main.storyboard */; };
@@ -19,9 +22,6 @@
 		8E4130731CA826B600CEACF0 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */; };
 		8E71634C1CB3EC0700C23BED /* LanguageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */; };
 		8E71634E1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */; };
-		8E7C96A81D154C2700A7A9CB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7C96A51D154C2700A7A9CB /* FBSDKCoreKit.framework */; };
-		8E7C96A91D154C2700A7A9CB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7C96A61D154C2700A7A9CB /* FBSDKLoginKit.framework */; };
-		8E7C96AA1D154C2700A7A9CB /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7C96A71D154C2700A7A9CB /* FBSDKShareKit.framework */; };
 		8E7C96AC1D157C9400A7A9CB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C96AB1D157C9400A7A9CB /* APIManager.swift */; };
 		8E8FB5D61CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FB5D51CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift */; };
 		8E8FB5D81CB53CFD0043C1B8 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FB5D71CB53CFD0043C1B8 /* RegisterController.swift */; };
@@ -49,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1D1048D7957350AE489F9E /* Pods-BluePencilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluePencilTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluePencilTests/Pods-BluePencilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3154A8A8CD911732B5D1FCD3 /* Pods_BluePencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluePencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5173D0E7007192E348D908DC /* Pods-BluePencilUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluePencilUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluePencilUITests/Pods-BluePencilUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F65F9294309A106323924A9 /* Pods-BluePencil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluePencil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluePencil/Pods-BluePencil.debug.xcconfig"; sourceTree = "<group>"; };
+		71C24EC930E746292D3725EF /* Pods-BluePencil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluePencil.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluePencil/Pods-BluePencil.release.xcconfig"; sourceTree = "<group>"; };
 		8E41303B1CA7E7CE00CEACF0 /* BluePencil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluePencil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E41303E1CA7E7CF00CEACF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E4130401CA7E7CF00CEACF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,9 +72,6 @@
 		8E4130721CA826B600CEACF0 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		8E71634B1CB3EC0700C23BED /* LanguageSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageSelector.swift; sourceTree = "<group>"; };
 		8E71634D1CB3EC9100C23BED /* RegisterNativeLanguageSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNativeLanguageSelectionController.swift; sourceTree = "<group>"; };
-		8E7C96A51D154C2700A7A9CB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		8E7C96A61D154C2700A7A9CB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		8E7C96A71D154C2700A7A9CB /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		8E7C96AB1D157C9400A7A9CB /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		8E8FB5D51CB53BA30043C1B8 /* RegisterNativeLanguageConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNativeLanguageConfirmationController.swift; sourceTree = "<group>"; };
 		8E8FB5D71CB53CFD0043C1B8 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,10 @@
 		8EE0C8291CB926C30001FCFF /* RegisterConfirmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterConfirmController.swift; sourceTree = "<group>"; };
 		8EF4E3B31CB8EE7D008FC7C9 /* RegisterLearnLanguageLevelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLearnLanguageLevelController.swift; sourceTree = "<group>"; };
 		8EF4E3B51CB8F11A008FC7C9 /* RegisterLearnLanguageConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterLearnLanguageConfirmationController.swift; sourceTree = "<group>"; };
+		B2E982259406C54CCBBF84F1 /* Pods-BluePencilUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluePencilUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluePencilUITests/Pods-BluePencilUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C948662225123A647D3C3349 /* Pods_BluePencilTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluePencilTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB467385F51B32E9E1589922 /* Pods-BluePencilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluePencilTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluePencilTests/Pods-BluePencilTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBB2277B59F2AA20A7429DD2 /* Pods_BluePencilUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluePencilUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7C96A91D154C2700A7A9CB /* FBSDKLoginKit.framework in Frameworks */,
-				8E7C96A81D154C2700A7A9CB /* FBSDKCoreKit.framework in Frameworks */,
-				8E7C96AA1D154C2700A7A9CB /* FBSDKShareKit.framework in Frameworks */,
+				5634C9365D6FAACEA4F26608 /* Pods_BluePencil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A0D2502C06E6B5538D8C04 /* Pods_BluePencilTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +106,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18019FE28C0883B061BB51F2 /* Pods_BluePencilUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60990EAADF8B49C8735F8A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3154A8A8CD911732B5D1FCD3 /* Pods_BluePencil.framework */,
+				C948662225123A647D3C3349 /* Pods_BluePencilTests.framework */,
+				FBB2277B59F2AA20A7429DD2 /* Pods_BluePencilUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86BC240E7115EF1F64B506F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F65F9294309A106323924A9 /* Pods-BluePencil.debug.xcconfig */,
+				71C24EC930E746292D3725EF /* Pods-BluePencil.release.xcconfig */,
+				2C1D1048D7957350AE489F9E /* Pods-BluePencilTests.debug.xcconfig */,
+				EB467385F51B32E9E1589922 /* Pods-BluePencilTests.release.xcconfig */,
+				B2E982259406C54CCBBF84F1 /* Pods-BluePencilUITests.debug.xcconfig */,
+				5173D0E7007192E348D908DC /* Pods-BluePencilUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E4130321CA7E7CE00CEACF0 = {
 			isa = PBXGroup;
 			children = (
-				8E7C96A41D154C1900A7A9CB /* Frameworks */,
 				8E41303D1CA7E7CE00CEACF0 /* BluePencil */,
 				8E4130521CA7E7CF00CEACF0 /* BluePencilTests */,
 				8E41305D1CA7E7CF00CEACF0 /* BluePencilUITests */,
 				8E41303C1CA7E7CE00CEACF0 /* Products */,
+				86BC240E7115EF1F64B506F2 /* Pods */,
+				60990EAADF8B49C8735F8A22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,16 +201,6 @@
 			path = BluePencilUITests;
 			sourceTree = "<group>";
 		};
-		8E7C96A41D154C1900A7A9CB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8E7C96A51D154C2700A7A9CB /* FBSDKCoreKit.framework */,
-				8E7C96A61D154C2700A7A9CB /* FBSDKLoginKit.framework */,
-				8E7C96A71D154C2700A7A9CB /* FBSDKShareKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E4130631CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencil" */;
 			buildPhases = (
+				B8CDA986082845AAC374FA83 /* [CP] Check Pods Manifest.lock */,
 				8E4130371CA7E7CE00CEACF0 /* Sources */,
 				8E4130381CA7E7CE00CEACF0 /* Frameworks */,
 				8E4130391CA7E7CE00CEACF0 /* Resources */,
+				C4F668B58C55A64CFA27C1C9 /* [CP] Embed Pods Frameworks */,
+				4A61CD971FE137598A66BF99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E4130661CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencilTests" */;
 			buildPhases = (
+				066884B2A7F7A13A617AF321 /* [CP] Check Pods Manifest.lock */,
 				8E41304B1CA7E7CF00CEACF0 /* Sources */,
 				8E41304C1CA7E7CF00CEACF0 /* Frameworks */,
 				8E41304D1CA7E7CF00CEACF0 /* Resources */,
+				CA25D783844E09FFDFED6E91 /* [CP] Embed Pods Frameworks */,
+				B91866B9679728EFEE85F087 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E4130691CA7E7CF00CEACF0 /* Build configuration list for PBXNativeTarget "BluePencilUITests" */;
 			buildPhases = (
+				DD60A78ADE76F2CF9491B7AC /* [CP] Check Pods Manifest.lock */,
 				8E4130561CA7E7CF00CEACF0 /* Sources */,
 				8E4130571CA7E7CF00CEACF0 /* Frameworks */,
 				8E4130581CA7E7CF00CEACF0 /* Resources */,
+				F4754AA53AE206429D252484 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,6 +334,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066884B2A7F7A13A617AF321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A61CD971FE137598A66BF99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluePencil/Pods-BluePencil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CDA986082845AAC374FA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B91866B9679728EFEE85F087 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluePencilTests/Pods-BluePencilTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F668B58C55A64CFA27C1C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluePencil/Pods-BluePencil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA25D783844E09FFDFED6E91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluePencilTests/Pods-BluePencilTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD60A78ADE76F2CF9491B7AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4754AA53AE206429D252484 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluePencilUITests/Pods-BluePencilUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E4130371CA7E7CE00CEACF0 /* Sources */ = {
@@ -467,6 +618,7 @@
 		};
 		8E4130641CA7E7CF00CEACF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F65F9294309A106323924A9 /* Pods-BluePencil.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -482,6 +634,7 @@
 		};
 		8E4130651CA7E7CF00CEACF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C24EC930E746292D3725EF /* Pods-BluePencil.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -497,6 +650,7 @@
 		};
 		8E4130671CA7E7CF00CEACF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1D1048D7957350AE489F9E /* Pods-BluePencilTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BluePencilTests/Info.plist;
@@ -509,6 +663,7 @@
 		};
 		8E4130681CA7E7CF00CEACF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB467385F51B32E9E1589922 /* Pods-BluePencilTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BluePencilTests/Info.plist;
@@ -521,6 +676,7 @@
 		};
 		8E41306A1CA7E7CF00CEACF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E982259406C54CCBBF84F1 /* Pods-BluePencilUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BluePencilUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -532,6 +688,7 @@
 		};
 		8E41306B1CA7E7CF00CEACF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5173D0E7007192E348D908DC /* Pods-BluePencilUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BluePencilUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
